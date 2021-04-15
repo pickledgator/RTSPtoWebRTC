@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/deepch/vdk/codec/h264parser"
+	"github.com/pickledgator/vdk/codec/h264parser"
 
-	"github.com/deepch/vdk/av"
+	"github.com/pickledgator/vdk/av"
 )
 
 //Config global

@@ -7,9 +7,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/deepch/vdk/av"
+	"github.com/pickledgator/vdk/av"
 
-	webrtc "github.com/deepch/vdk/format/webrtcv3"
+	webrtc "github.com/pickledgator/vdk/format/webrtcv3"
 	"github.com/gin-gonic/gin"
 )
 

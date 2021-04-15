@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/deepch/vdk/format/rtspv2"
+	"github.com/pickledgator/vdk/format/rtspv2"
 )
 
 var (
