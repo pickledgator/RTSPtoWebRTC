@@ -1,4 +1,4 @@
-module github.com/deepch/RTSPtoWebRTC
+module github.com/pickledgator/RTSPtoWebRTC
 
 go 1.15
 
