@@ -1,25 +1,13 @@
 {
   "server": {
-    "http_port": ":8083",
+    "http_port": ":8000",
     "ice_servers": ["stun:stun.l.google.com:19302"]
   },
   "streams": {
-    "H264_AAC": {
+    "front": {
       "on_demand": false,
       "disable_audio": true,
-      "url": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov"
-    },
-    "MICRO": {
-      "on_demand": true,
-      "url": "rtsp://akaimp.duckdns.org/live/ch00_0"
-    },
-    "PCM": {
-      "on_demand": true,
-      "url": "rtsp://admin:admin123@10.128.18.224/mpeg4"
-    },
-    "H264_PCMALAW": {
-      "on_demand": true,
-      "url": "rtsp://admin:admin123@10.128.18.224/mpeg4"
+      "url": "rtsp://192.168.1.6/axis-media/media.3gp"
     }
   }
 }
